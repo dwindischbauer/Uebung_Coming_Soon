@@ -1,0 +1,113 @@
+/** CSS-Stylesheet
+*	author: David Windischbauer
+**/
+
+/************* general setting *************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monospace', sans-serif;
+}
+h1, h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+	padding-bottom: 1%;
+}
+h1 {
+	font-size: 250%;
+}
+h2 {
+	font-size: 200%;
+}
+h3 {
+	font-size: 150%;
+}
+#footer  {
+	font-size: 70%;
+	text-align: center;
+}
+
+/************* brown box *************/
+
+.box_brown{
+    background-color: #C69165;
+    color:white;
+    flex-wrap: wrap;
+ padding: 1%;
+}
+.box_brown h3{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box_brown p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/************* white box *************/
+.box_white{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+    vertical-align:middle;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.box_white a {
+    background-color: #7c5a3d;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+   margin-left: 20%;
+   
+}
+.box_white img {
+    width: 20%;
+    margin-left: 15%;
+}
+
+/************* background box *************/
+.box_background{
+    background-image: url(img/anno_bg-image.webp);
+    color: white;
+    height: 200%;
+    padding: 1%;
+
+}
+.box_background h2{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.box_background p {
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 200%;
+}
+
+
+/************* multimedia content *************/
+/* 16:9 Full-Screen Video */
+
+
+
+
+/************* preorder button *************/
+
+
+
+/************* gallery *************/
+
+.box_white .gallery {
+flex-wrap: wrap;
+display: flex;    
+padding: 1%;
+flex: auto;
+}
+.box_white .gallery  img{
+    width: 15%;
+}
